@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点击图片放大</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #outline{
+            float: inherit;
+
+            text-align: center;
+            margin: 0 auto;
+            height: 480px;
+           line-height: 480px;
+            /*overflow: hidden;*/
+            width: 320px;
+            border: 1px solid black;
+            background: black;
+        }
+        #pic{
+
+            /*height: 40%;*/
+
+        }
+        button{
+            float: left;
+
+        }
+    </style>
+</head>
+<body>
+<div id="outline">
+    <img  id="pic" src="img/hor.png" alt=""/>
+
+</div>
+<button type="button" id="btnChange">切换</button>
+
+</body>
+<script src="js/showImg.js"></script>
+</html>
